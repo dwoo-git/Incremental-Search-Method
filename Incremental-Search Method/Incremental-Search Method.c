@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
+// ch1.1_Incremental-Search Method
 // 다항식 수식 직관적 계산: f(x) = a[3]*x^3 + a[2]*x^2 + a[1]*x + a[0]
 double f(double x, double a[]) {
     return a[3] * pow(x, 3) + a[2] * pow(x, 2) + a[1] * x + a[0];
